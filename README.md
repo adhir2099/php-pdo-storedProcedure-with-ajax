@@ -8,15 +8,16 @@ Show records with ajax and insert records on modal with stored procedure and aja
 
 # Database 
 * employee.sql
+
 There is the schema for the table and the script for the stored procedure.
 
-`CREATE TABLE `employees` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(64) NOT NULL,
-  `address` varchar(64) NOT NULL,
-  `gender` varchar(10) NOT NULL,
-  `age` int(11) NOT NULL,
-  PRIMARY KEY (`id`)
+`CREATE TABLE employees (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  name varchar(64) NOT NULL,
+  address varchar(64) NOT NULL,
+  gender varchar(10) NOT NULL,
+  age int(11) NOT NULL,
+  PRIMARY KEY (id)
 ) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;`
 ## Libraries included
 * Bootstrap v4
