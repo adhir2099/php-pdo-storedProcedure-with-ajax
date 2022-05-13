@@ -14,6 +14,8 @@
 
     <body class="d-flex flex-column min-vh-100">  
 
+        <span id="forkongithub"><a href="https://github.com/adhirsaurio/cawfy-template">Fork me on GitHub</a></span>
+
         <div class="container mb-5">  
             <div class="mb-5"></div>
             <div id="action_alert" class="text-center"></div>
