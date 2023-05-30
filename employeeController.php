@@ -27,7 +27,6 @@ if(isset($_POST["action"])){
         if(sizeof($result) > 0){
             
             foreach($result as $row){
-
                 $output .= '
                 <tr>
                     <td>'.$row["name"].'</td>

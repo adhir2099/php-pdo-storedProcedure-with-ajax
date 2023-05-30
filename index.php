@@ -14,7 +14,7 @@
 
     <body class="d-flex flex-column min-vh-100">  
 
-        <span id="forkongithub"><a href="https://github.com/adhirsaurio/cawfy-template">Fork me on GitHub</a></span>
+        <span id="forkongithub"><a href="https://github.com/adhirsaurio/php-pdo-storedProcedure-with-ajax">Fork me on GitHub</a></span>
 
         <div class="container mb-5">  
             <div class="mb-5"></div>
@@ -37,7 +37,7 @@
         </footer>
 
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Show records w/ajax and insert records on modal w/sp and ajax © 2022</small></div>
+            <div class="container"><small>Show records w/ajax and insert records on modal w/sp and ajax © 2023</small></div>
         </div>
 
         <!-- MODAL CREATE -->
@@ -121,14 +121,11 @@
             let action  = $('#action').val();  
 
             if(name != ''){
-
                 $.ajax({
                     url : "employeeController.php",   
                     method:"POST",     
                     data:{name:name, address:address, gender:gender, age:age, action:action}, 
-
                     success:function(data){
-
                         if(data == 'recordInserted'){
                                 $('#action_alert').html("<label class='text-success'><div class='alert alert-success' role='alert'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'><b>X</b></button><label>Employee succesfully added.</label></div></label>");
                                 fetchEmployee();

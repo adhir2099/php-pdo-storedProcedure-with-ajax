@@ -10,7 +10,7 @@ Show records with ajax and insert records on modal with stored procedure and aja
 * employee.sql
 
 There is the schema for the table and the script for the stored procedure.
-
+```sql
 `CREATE TABLE employees (
   id int(11) NOT NULL AUTO_INCREMENT,
   name varchar(64) NOT NULL,
@@ -19,6 +19,8 @@ There is the schema for the table and the script for the stored procedure.
   age int(11) NOT NULL,
   PRIMARY KEY (id)
 ) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;`
+```
+
 ## Libraries included
 * Bootstrap v4
 * FontAwesome 5.15
